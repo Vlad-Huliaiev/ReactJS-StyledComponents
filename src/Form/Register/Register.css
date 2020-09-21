@@ -1,0 +1,6 @@
+.register-text-name > div {
+    float: left;
+    width: 42.5%;
+    margin-left: -3%;
+    padding-left: 30px;
+}
