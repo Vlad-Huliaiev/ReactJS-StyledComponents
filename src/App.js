@@ -5,16 +5,15 @@ import SignIn from "./Form/Login/Login.js";
 import SignUp from "./Form/Register/Register.js";
 
 
-export const form = [{
+export const form = [
+{
     title: "Login",
     path: "/login",
     component: SignIn,
-    exact: true
 }, {
     title: "Register",
     path: "/register",
     component: SignUp,
-    exact: true
 }
 ];
 
@@ -24,11 +23,10 @@ class App extends Component {
             <Router>
                 <div>
                     <Switch>
-                        {form.map(({path, component: Component, exact = false}) => (
+                        {form.map(({path, component, exact = false}) => (
                             <Route path={path} exact={exact} component={Component}/>
-                        ))}
+                            ))}
                         <Route path="/" exact render={() => <Redirect to="/login"/>} />
-                        <Route exact render={() => <Redirect to="/login"/>}/>
                     </Switch>
                 </div>
             </Router>
