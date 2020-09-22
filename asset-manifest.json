@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ReactJS-StyledComponents/static/css/main.13bca9cb.chunk.css",
-    "main.js": "/ReactJS-StyledComponents/static/js/main.510cd10a.chunk.js",
-    "main.js.map": "/ReactJS-StyledComponents/static/js/main.510cd10a.chunk.js.map",
+    "main.css": "/ReactJS-StyledComponents/static/css/main.bcc463a9.chunk.css",
+    "main.js": "/ReactJS-StyledComponents/static/js/main.17cea6f9.chunk.js",
+    "main.js.map": "/ReactJS-StyledComponents/static/js/main.17cea6f9.chunk.js.map",
     "runtime-main.js": "/ReactJS-StyledComponents/static/js/runtime-main.d8a419d5.js",
     "runtime-main.js.map": "/ReactJS-StyledComponents/static/js/runtime-main.d8a419d5.js.map",
-    "static/js/2.6ea4496e.chunk.js": "/ReactJS-StyledComponents/static/js/2.6ea4496e.chunk.js",
-    "static/js/2.6ea4496e.chunk.js.map": "/ReactJS-StyledComponents/static/js/2.6ea4496e.chunk.js.map",
+    "static/js/2.fa14b10a.chunk.js": "/ReactJS-StyledComponents/static/js/2.fa14b10a.chunk.js",
+    "static/js/2.fa14b10a.chunk.js.map": "/ReactJS-StyledComponents/static/js/2.fa14b10a.chunk.js.map",
     "index.html": "/ReactJS-StyledComponents/index.html",
-    "precache-manifest.e6e3b6e48dc6f299388283e5b9a66dc9.js": "/ReactJS-StyledComponents/precache-manifest.e6e3b6e48dc6f299388283e5b9a66dc9.js",
+    "precache-manifest.b0176bc08bf799298b679ca520802d5b.js": "/ReactJS-StyledComponents/precache-manifest.b0176bc08bf799298b679ca520802d5b.js",
     "service-worker.js": "/ReactJS-StyledComponents/service-worker.js",
-    "static/css/main.13bca9cb.chunk.css.map": "/ReactJS-StyledComponents/static/css/main.13bca9cb.chunk.css.map",
-    "static/js/2.6ea4496e.chunk.js.LICENSE.txt": "/ReactJS-StyledComponents/static/js/2.6ea4496e.chunk.js.LICENSE.txt",
+    "static/css/main.bcc463a9.chunk.css.map": "/ReactJS-StyledComponents/static/css/main.bcc463a9.chunk.css.map",
+    "static/js/2.fa14b10a.chunk.js.LICENSE.txt": "/ReactJS-StyledComponents/static/js/2.fa14b10a.chunk.js.LICENSE.txt",
     "static/media/padlock.d964e0b3.svg": "/ReactJS-StyledComponents/static/media/padlock.d964e0b3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d8a419d5.js",
-    "static/js/2.6ea4496e.chunk.js",
-    "static/css/main.13bca9cb.chunk.css",
-    "static/js/main.510cd10a.chunk.js"
+    "static/js/2.fa14b10a.chunk.js",
+    "static/css/main.bcc463a9.chunk.css",
+    "static/js/main.17cea6f9.chunk.js"
   ]
 }
