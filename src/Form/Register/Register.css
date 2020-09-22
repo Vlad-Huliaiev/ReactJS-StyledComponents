@@ -4,3 +4,14 @@
     margin-left: -3%;
     padding-left: 30px;
 }
+
+.link-to-login{
+    font-size: 12px;
+    color: #19b5fe;
+    margin-left: 135px;
+
+}
+
+.link-to-login:hover {
+    color: #674172;
+}

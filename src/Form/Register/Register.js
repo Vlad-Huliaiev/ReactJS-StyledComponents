@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import "./Register.css";
-import {Container, HeaderContainer, TextContainer, ImgHeader, ContainerInput, EnterButton, EnterText, ContainerNameInput} from "../Style.js";
+import {Container, HeaderContainer, TextContainer, ImgHeader, ContainerInput, EnterButton, ContainerNameInput} from "../Style.js";
 import {ReactComponent as ReactLogo} from '../img/padlock.svg';
+import {Link} from "react-router-dom";
 
 class Register extends Component {
     state = {
@@ -83,7 +84,7 @@ class Register extends Component {
 
                         <EnterButton onClick={this.show.bind(this)}>SIGN UP</EnterButton>
                         <div>
-                            <EnterText href="/ReactJS-StyledComponents/login" className="register-text">Already have an account? Sign In</EnterText>
+                            <Link to="/login" className="link-to-login">Already have an account? Sign In</Link>
                         </div>
 
                     </TextContainer>

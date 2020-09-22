@@ -76,14 +76,4 @@ const EnterButton = Styled.button`
     }
 `
 
-const EnterText = Styled.a`
-    font-size: 10px;
-    color: #19b5fe;
-    margin-left: 45px;
-    margin-right: 45px;
-    &:hover {
-        color: #674172;
-    }
-`
-
-export {Container, HeaderContainer, TextContainer, ImgHeader, ContainerInput, EnterButton, EnterText, ContainerNameInput};
+export {Container, HeaderContainer, TextContainer, ImgHeader, ContainerInput, EnterButton, ContainerNameInput};
