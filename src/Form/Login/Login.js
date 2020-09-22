@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 //import "./Login.css";
-import { login } from './LoginFunction';
 import {Container, HeaderContainer, TextContainer, ImgHeader, ContainerInput, EnterButton, EnterText} from "../Style.js";
 import {ReactComponent as ReactLogo} from '../img/padlock.svg';
 
@@ -19,16 +18,6 @@ class Login extends Component {
 
     onSubmit(e) {
         e.preventDefault()
-
-        const user = {
-            email: this.state.email,
-            password: this.state.password
-        }
-//        login(user).then(res => {
-//            if (res) {
-//                this.props.history.push(`/profile`);
-//            }
-//        })
     }
 
     show = () => {
@@ -72,7 +61,7 @@ class Login extends Component {
                         <EnterButton onClick={this.show.bind(this)}>SIGN IN</EnterButton>
                         <div>
                             <EnterText href="" onClick={this.forgotPassword}>Forgot password?</EnterText>
-                            <EnterText href="/register">Don`t have an account? Sign Up</EnterText>
+                            <EnterText href="/ReactJS-StyledComponents/register">Don`t have an account? Sign Up</EnterText>
                         </div>
                     </TextContainer>
                 </form>

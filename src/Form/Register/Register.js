@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import "./Register.css";
-import { register } from './RegisterFunction';
-import {Container, HeaderContainer, TextContainer, ImgHeader, ContainerInput, EnterButton, EnterText, ContainerNameText, ContainerNameInput} from "../Style.js";
+import {Container, HeaderContainer, TextContainer, ImgHeader, ContainerInput, EnterButton, EnterText, ContainerNameInput} from "../Style.js";
 import {ReactComponent as ReactLogo} from '../img/padlock.svg';
 
 class Register extends Component {
@@ -21,24 +20,10 @@ class Register extends Component {
 
     onSubmit(e) {
         e.preventDefault()
-
-    const newUser = {
-        first_name: this.state.first_name,
-        last_name: this.state.last_name,
-        email: this.state.email,
-        password: this.state.password
-    }
-//    register(newUser).then(res => {
-//        this.props.history.push(`/login`)
-//    })
     }
 
     show = () => {
-//        if(this.state === a){
-            console.log(this.state);
-//        } else {
-//            alert(`Enter your data!`);
-//        }
+        console.log(this.state);
     }
 
     render(){
@@ -98,8 +83,9 @@ class Register extends Component {
 
                         <EnterButton onClick={this.show.bind(this)}>SIGN UP</EnterButton>
                         <div>
-                            <EnterText href="/login" className="register-text">Already have an account? Sign In</EnterText>
+                            <EnterText href="/ReactJS-StyledComponents/login" className="register-text">Already have an account? Sign In</EnterText>
                         </div>
+
                     </TextContainer>
                 </form>
             </Container>
