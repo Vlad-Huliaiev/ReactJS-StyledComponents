@@ -12,7 +12,7 @@ class App extends Component {
             <div>
                 <Router basename='/ReactJS-StyledComponents'>
                     <Switch>
-                        <Route exact path='/' exact render={() => <Redirect to='/login'/>} />
+                        <Route path='/' exact render={() => <Redirect to='/login'/>} />
                         <Route path='/login' component={SignIn} />
                         <Route path='/register' component={SignUp} />
                     </Switch>

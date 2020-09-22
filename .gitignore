@@ -3,7 +3,6 @@
 # dependencies
 /.idea
 /node_modules
-/public
 /.pnp
 .pnp.js
 /components
@@ -11,7 +10,7 @@
 /coverage
 
 # production
-#/build
+/build
 
 # misc
 .DS_Store
